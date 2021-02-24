@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#page-login{
+    width: 100vw;
+    height: 100vh;
+}
+
+#page-login .page-container{
+    width: 100vw;
+    height: 100vh;
+    background: #F6F6F6;
+}
+
+.logo-header{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #eeeeee;
+    position: relative;
+}
+
+.logo-header .repl-logo{
+    width: 10vw;
+    position: absolute;
+    left: 0;
+    margin-left: 2.2rem;
+    
+}
+
+.logo-header .log-in{
+    display: flex;
+    text-align: center;
+    color: rgb(153,153,153);
+}
+
+.log-in > h1{
+    font-weight: 100;
+    font-size: 1.4rem;
+}
+
+main{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-total{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   margin-bottom: 2.4rem;
+
+}
+.social-total .social-midias-google{
+    height: 24px;
+    width: 24px;
+    margin-right: 4.2rem;
+    background-size: contain;
+}
+
+.social-total .social-midias-git{
+    height: 24px;
+    width: 24px;
+    background-size: contain;
+    margin-right: 4.2rem;
+}
+
+.social-total .social-midias-facebook{
+    height: 24px;
+    width: 24px;
+    background-size: contain;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+form .input-field{
+    border: solid 1px #e0e0e0;
+    font-size: 1.2rem;
+    font-family: Ubunto;
+    line-height: 0.8rem;
+    background: transparent;
+    color: black;
+    padding: 0.5rem;
+    border-radius: 0.4rem;
+    outline: none;
+    width: 100%;
+    box-sizing: border-box;
+    transition: 0.3s;
+    margin-bottom: 1.4rem;
+}
+
+form .input-field:focus{
+    border: solid 1px rgba(37, 129, 233, 0.48);
+}
+
+.forgot > a{
+    text-decoration: none;
+    color: #3485e4;
+    margin-top: 1.2rem;
+    margin-right: 1.0rem;
+    margin-left: 0.8rem;
+}
+
+.forgot > a:hover{
+    color: #03438b;
+}
+
+.btn{
+    background: #3485e4;
+    color: white;
+    border: solid 1px rgba(52,133,228,0.48);
+    width: 100%;
+    margin-top: 1.2rem;
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-family: Ubunto;
+    line-height: 0.8rem;
+    border-radius: 0.4rem;
+    outline: 0;
+    padding: 0.5rem;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.btn:hover{
+    background: #0771e9;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: last baseline;
+}
+
+.footer > a{
+    text-decoration: none;
+    color: #3485e4;
+}
+
+.footer > a:hover{
+    color: #03438b;
+}
